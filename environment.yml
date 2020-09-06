@@ -1,0 +1,5 @@
+name: psagot-2020-genetic-tsp
+dependencies:
+  - python=3.8
+  - matplotlib
+  - pandas
