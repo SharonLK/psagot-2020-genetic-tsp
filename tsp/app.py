@@ -1,3 +1,4 @@
+import pathlib
 from typing import List
 
 import pandas as pd
@@ -14,4 +15,8 @@ def load(data_path: str) -> List[City]:
 
 
 if __name__ == '__main__':
-    pass
+    dataset_file = 'dataset_1.csv'
+    path = pathlib.Path('..') / 'resources' / 'datasets' / dataset_file
+    cities = load(path)
+
+    print(cities)
