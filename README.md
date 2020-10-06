@@ -12,7 +12,7 @@ To read more about the travelling salesman problem, visit this [link](https://en
 
 ## Genetic Algorithms
 
-The genetic optimization technique tries strives to mimic the evolutionary process by having a `genetic pool` which improves each iteration of the algorithm, slowly converging to a near-optimal solution to the problem.
+The genetic optimization technique strives to mimic the evolutionary process by having a `genetic pool` which improves each iteration of the algorithm, slowly converging to a near-optimal solution to the problem.
 
 The `genetic pool` begins with a set of possible solutions to the problem (called `population`). This set can be randomly generated (or you can use some heuristics to generate a better first population).
 
